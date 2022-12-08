@@ -1,0 +1,48 @@
+.card{
+    background-color: rgb(246, 242, 242);
+    box-shadow: 0px 0px 0px #0004;
+    padding: 10px;
+    margin-right: 40px;
+    border-radius: 7px;
+    display: inline-block;
+    text-align: center;
+    justify-content:space-between;
+    margin-left: 15px;
+
+}
+
+img{
+    border-radius: 7px;
+}
+
+.codProduto{
+ padding: 5px;
+ font-size: 18px;
+ font-family: 'Franklin Gothic Medium';
+ color: blue;
+}
+
+.nomeProduto{
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.valorProduto{
+    margin-top: 10px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.divPrincipal{
+    background-color: lightslategray;
+    display: inline-flex;
+    justify-content:space-between;
+    width: 100%;
+    
+}
+
+
+

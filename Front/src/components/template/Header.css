@@ -1,0 +1,9 @@
+.header {  
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 20px;
+    background-color:lightslategrey;
+    margin-right: 50%;
+    
+}

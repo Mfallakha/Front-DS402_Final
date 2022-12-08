@@ -1,0 +1,37 @@
+
+.inserir-container{
+    border-radius: 80px;
+    padding: 80px;
+    color: rgb(2, 2, 2);
+    margin: auto;
+ 
+}
+
+.select {
+    padding: 12px;
+    margin-bottom: 50px;
+}
+
+.button{
+    padding: 3px;
+    margin-bottom: 60px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium';
+    left: 80%;    
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color:rgb(100, 97, 94);
+    color: white;
+}
+
+.botao1{
+    padding: 3px;
+    margin-bottom: 60px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';  
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color:rgb(100, 97, 94);
+    color: white;
+    margin-left: 30%;
+}

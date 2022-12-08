@@ -1,0 +1,73 @@
+:root {
+  --bg-menu: #fff6f6;
+  --logo-width: 150px;
+  --content-header-height: 60px;
+  --content-footer-height: 40px;
+  }
+
+  body {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+.App {
+  margin: 0px;
+  display: grid;
+  grid-template-columns: var(--logo-width) 1fr;
+  grid-template-rows:
+  var(--content-header-height) 1fr var(--content-footer-height);
+  grid-template-areas:"logo menu"
+                      "content content"
+                      "footer footer";
+  height: 150vh;
+  background-image: url('https://tribunapr.uol.com.br/wp-content/uploads/sites/54/2021/09/29000027/erros-academia-musculacao-2.jpg');
+}
+
+.App-logo {
+  height: 30vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+aside.logo{
+  grid-area: logo;
+  }
+  nav.menu {
+  grid-area: menu;
+  }
+  div.content {
+  grid-area: content;
+  }
+  footer.footer {
+  grid-area: footer;
+  }
+

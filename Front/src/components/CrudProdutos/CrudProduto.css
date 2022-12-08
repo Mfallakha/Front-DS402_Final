@@ -1,0 +1,29 @@
+
+.inserir-container{
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.select {
+    padding: 12px;
+    margin-bottom: 50px;
+}
+
+.botao{
+    padding: 5px;
+    margin-bottom: 40px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium';
+    margin: 0 5px;
+    position:relative;
+    left: 5%;
+}
+
+.button{
+    padding: 3px;
+    margin-bottom: 40px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium';
+    position:relative;
+    left: 110%;    
+}
